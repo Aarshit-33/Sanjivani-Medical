@@ -1,0 +1,256 @@
+2021-07-21T04:57:23+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in D:\Aarshit_Diploma\xmapp\htdocs\sanjivani\wp-includes\Requests\Transport\cURL.php on line 463
+
+2021-07-21T08:01:54+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in D:\Aarshit_Diploma\xmapp\htdocs\sanjivani\wp-admin\includes\class-wp-filesystem-direct.php on line 82
+
+2021-07-21T16:50:52+00:00 CRITICAL Uncaught TypeError: explode(): Argument #2 ($string) must be of type string, array given in D:\Aarshit_Diploma\xmapp\htdocs\sanjivani\wp-includes\class.wp-dependencies.php:166
+Stack trace:
+#0 D:\Aarshit_Diploma\xmapp\htdocs\sanjivani\wp-includes\class.wp-dependencies.php(166): explode('?', Array)
+#1 D:\Aarshit_Diploma\xmapp\htdocs\sanjivani\wp-includes\class.wp-styles.php(371): WP_Dependencies->all_deps(Array, false, false)
+#2 D:\Aarshit_Diploma\xmapp\htdocs\sanjivani\wp-includes\class.wp-dependencies.php(106): WP_Styles->all_deps(Array)
+#3 D:\Aarshit_Diploma\xmapp\htdocs\sanjivani\wp-includes\script-loader.php(2739): WP_Dependencies->do_items(Array)
+#4 D:\Aarshit_Diploma\xmapp\htdocs\sanjivani\wp-includes\class-wp-hook.php(303): wp_add_iframed_editor_assets_html('')
+#5 D:\Aarshit_Diploma\xmapp\htdocs\sanjivani\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#6 D:\Aarshit_Diploma\xmapp\htdocs\sanjivani\wp-includes\plugin.php(470): WP_Hook->do_action(Array)
+#7 D:\Aarshit_Diploma\xmapp\htdocs\sanjivani\wp-admin\admin-footer.php(105): do_action('admin_footer-po...')
+#8 D:\Aarshit_Diploma\xmapp\htdocs\sanjivani\wp-admin\post-new.php(83): require_once('D:\\Aarshit_Dipl...')
+#9 {main}
+  thrown in D:\Aarshit_Diploma\xmapp\htdocs\sanjivani\wp-includes\class.wp-dependencies.php on line 166
+
+2021-07-21T16:57:44+00:00 CRITICAL Uncaught TypeError: explode(): Argument #2 ($string) must be of type string, array given in D:\Aarshit_Diploma\xmapp\htdocs\sanjivani\wp-includes\class.wp-dependencies.php:166
+Stack trace:
+#0 D:\Aarshit_Diploma\xmapp\htdocs\sanjivani\wp-includes\class.wp-dependencies.php(166): explode('?', Array)
+#1 D:\Aarshit_Diploma\xmapp\htdocs\sanjivani\wp-includes\class.wp-styles.php(371): WP_Dependencies->all_deps(Array, false, false)
+#2 D:\Aarshit_Diploma\xmapp\htdocs\sanjivani\wp-includes\class.wp-dependencies.php(106): WP_Styles->all_deps(Array)
+#3 D:\Aarshit_Diploma\xmapp\htdocs\sanjivani\wp-includes\script-loader.php(2739): WP_Dependencies->do_items(Array)
+#4 D:\Aarshit_Diploma\xmapp\htdocs\sanjivani\wp-includes\class-wp-hook.php(303): wp_add_iframed_editor_assets_html('')
+#5 D:\Aarshit_Diploma\xmapp\htdocs\sanjivani\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#6 D:\Aarshit_Diploma\xmapp\htdocs\sanjivani\wp-includes\plugin.php(470): WP_Hook->do_action(Array)
+#7 D:\Aarshit_Diploma\xmapp\htdocs\sanjivani\wp-admin\admin-footer.php(105): do_action('admin_footer-po...')
+#8 D:\Aarshit_Diploma\xmapp\htdocs\sanjivani\wp-admin\post.php(369): require_once('D:\\Aarshit_Dipl...')
+#9 {main}
+  thrown in D:\Aarshit_Diploma\xmapp\htdocs\sanjivani\wp-includes\class.wp-dependencies.php on line 166
+
+2021-07-21T16:58:36+00:00 CRITICAL Uncaught TypeError: explode(): Argument #2 ($string) must be of type string, array given in D:\Aarshit_Diploma\xmapp\htdocs\sanjivani\wp-includes\class.wp-dependencies.php:166
+Stack trace:
+#0 D:\Aarshit_Diploma\xmapp\htdocs\sanjivani\wp-includes\class.wp-dependencies.php(166): explode('?', Array)
+#1 D:\Aarshit_Diploma\xmapp\htdocs\sanjivani\wp-includes\class.wp-styles.php(371): WP_Dependencies->all_deps(Array, false, false)
+#2 D:\Aarshit_Diploma\xmapp\htdocs\sanjivani\wp-includes\class.wp-dependencies.php(106): WP_Styles->all_deps(Array)
+#3 D:\Aarshit_Diploma\xmapp\htdocs\sanjivani\wp-includes\script-loader.php(2739): WP_Dependencies->do_items(Array)
+#4 D:\Aarshit_Diploma\xmapp\htdocs\sanjivani\wp-includes\class-wp-hook.php(303): wp_add_iframed_editor_assets_html('')
+#5 D:\Aarshit_Diploma\xmapp\htdocs\sanjivani\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#6 D:\Aarshit_Diploma\xmapp\htdocs\sanjivani\wp-includes\plugin.php(470): WP_Hook->do_action(Array)
+#7 D:\Aarshit_Diploma\xmapp\htdocs\sanjivani\wp-admin\admin-footer.php(105): do_action('admin_footer-po...')
+#8 D:\Aarshit_Diploma\xmapp\htdocs\sanjivani\wp-admin\post-new.php(83): require_once('D:\\Aarshit_Dipl...')
+#9 {main}
+  thrown in D:\Aarshit_Diploma\xmapp\htdocs\sanjivani\wp-includes\class.wp-dependencies.php on line 166
+
+2021-07-21T17:07:47+00:00 CRITICAL Uncaught TypeError: explode(): Argument #2 ($string) must be of type string, array given in D:\Aarshit_Diploma\xmapp\htdocs\sanjivani\wp-includes\class.wp-dependencies.php:166
+Stack trace:
+#0 D:\Aarshit_Diploma\xmapp\htdocs\sanjivani\wp-includes\class.wp-dependencies.php(166): explode('?', Array)
+#1 D:\Aarshit_Diploma\xmapp\htdocs\sanjivani\wp-includes\class.wp-styles.php(371): WP_Dependencies->all_deps(Array, false, false)
+#2 D:\Aarshit_Diploma\xmapp\htdocs\sanjivani\wp-includes\class.wp-dependencies.php(106): WP_Styles->all_deps(Array)
+#3 D:\Aarshit_Diploma\xmapp\htdocs\sanjivani\wp-includes\script-loader.php(2739): WP_Dependencies->do_items(Array)
+#4 D:\Aarshit_Diploma\xmapp\htdocs\sanjivani\wp-includes\class-wp-hook.php(303): wp_add_iframed_editor_assets_html('')
+#5 D:\Aarshit_Diploma\xmapp\htdocs\sanjivani\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#6 D:\Aarshit_Diploma\xmapp\htdocs\sanjivani\wp-includes\plugin.php(470): WP_Hook->do_action(Array)
+#7 D:\Aarshit_Diploma\xmapp\htdocs\sanjivani\wp-admin\admin-footer.php(105): do_action('admin_footer-po...')
+#8 D:\Aarshit_Diploma\xmapp\htdocs\sanjivani\wp-admin\post.php(369): require_once('D:\\Aarshit_Dipl...')
+#9 {main}
+  thrown in D:\Aarshit_Diploma\xmapp\htdocs\sanjivani\wp-includes\class.wp-dependencies.php on line 166
+
+2021-07-21T17:08:53+00:00 CRITICAL Uncaught TypeError: explode(): Argument #2 ($string) must be of type string, array given in D:\Aarshit_Diploma\xmapp\htdocs\sanjivani\wp-includes\class.wp-dependencies.php:166
+Stack trace:
+#0 D:\Aarshit_Diploma\xmapp\htdocs\sanjivani\wp-includes\class.wp-dependencies.php(166): explode('?', Array)
+#1 D:\Aarshit_Diploma\xmapp\htdocs\sanjivani\wp-includes\class.wp-styles.php(371): WP_Dependencies->all_deps(Array, false, false)
+#2 D:\Aarshit_Diploma\xmapp\htdocs\sanjivani\wp-includes\class.wp-dependencies.php(106): WP_Styles->all_deps(Array)
+#3 D:\Aarshit_Diploma\xmapp\htdocs\sanjivani\wp-includes\script-loader.php(2739): WP_Dependencies->do_items(Array)
+#4 D:\Aarshit_Diploma\xmapp\htdocs\sanjivani\wp-includes\class-wp-hook.php(303): wp_add_iframed_editor_assets_html('')
+#5 D:\Aarshit_Diploma\xmapp\htdocs\sanjivani\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#6 D:\Aarshit_Diploma\xmapp\htdocs\sanjivani\wp-includes\plugin.php(470): WP_Hook->do_action(Array)
+#7 D:\Aarshit_Diploma\xmapp\htdocs\sanjivani\wp-admin\admin-footer.php(105): do_action('admin_footer-po...')
+#8 D:\Aarshit_Diploma\xmapp\htdocs\sanjivani\wp-admin\post.php(369): require_once('D:\\Aarshit_Dipl...')
+#9 {main}
+  thrown in D:\Aarshit_Diploma\xmapp\htdocs\sanjivani\wp-includes\class.wp-dependencies.php on line 166
+
+2021-07-21T17:08:59+00:00 CRITICAL Uncaught TypeError: explode(): Argument #2 ($string) must be of type string, array given in D:\Aarshit_Diploma\xmapp\htdocs\sanjivani\wp-includes\class.wp-dependencies.php:166
+Stack trace:
+#0 D:\Aarshit_Diploma\xmapp\htdocs\sanjivani\wp-includes\class.wp-dependencies.php(166): explode('?', Array)
+#1 D:\Aarshit_Diploma\xmapp\htdocs\sanjivani\wp-includes\class.wp-styles.php(371): WP_Dependencies->all_deps(Array, false, false)
+#2 D:\Aarshit_Diploma\xmapp\htdocs\sanjivani\wp-includes\class.wp-dependencies.php(106): WP_Styles->all_deps(Array)
+#3 D:\Aarshit_Diploma\xmapp\htdocs\sanjivani\wp-includes\script-loader.php(2739): WP_Dependencies->do_items(Array)
+#4 D:\Aarshit_Diploma\xmapp\htdocs\sanjivani\wp-includes\class-wp-hook.php(303): wp_add_iframed_editor_assets_html('')
+#5 D:\Aarshit_Diploma\xmapp\htdocs\sanjivani\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#6 D:\Aarshit_Diploma\xmapp\htdocs\sanjivani\wp-includes\plugin.php(470): WP_Hook->do_action(Array)
+#7 D:\Aarshit_Diploma\xmapp\htdocs\sanjivani\wp-admin\admin-footer.php(105): do_action('admin_footer-po...')
+#8 D:\Aarshit_Diploma\xmapp\htdocs\sanjivani\wp-admin\post.php(369): require_once('D:\\Aarshit_Dipl...')
+#9 {main}
+  thrown in D:\Aarshit_Diploma\xmapp\htdocs\sanjivani\wp-includes\class.wp-dependencies.php on line 166
+
+2021-07-21T17:09:20+00:00 CRITICAL Uncaught TypeError: explode(): Argument #2 ($string) must be of type string, array given in D:\Aarshit_Diploma\xmapp\htdocs\sanjivani\wp-includes\class.wp-dependencies.php:166
+Stack trace:
+#0 D:\Aarshit_Diploma\xmapp\htdocs\sanjivani\wp-includes\class.wp-dependencies.php(166): explode('?', Array)
+#1 D:\Aarshit_Diploma\xmapp\htdocs\sanjivani\wp-includes\class.wp-styles.php(371): WP_Dependencies->all_deps(Array, false, false)
+#2 D:\Aarshit_Diploma\xmapp\htdocs\sanjivani\wp-includes\class.wp-dependencies.php(106): WP_Styles->all_deps(Array)
+#3 D:\Aarshit_Diploma\xmapp\htdocs\sanjivani\wp-includes\script-loader.php(2739): WP_Dependencies->do_items(Array)
+#4 D:\Aarshit_Diploma\xmapp\htdocs\sanjivani\wp-includes\class-wp-hook.php(303): wp_add_iframed_editor_assets_html('')
+#5 D:\Aarshit_Diploma\xmapp\htdocs\sanjivani\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#6 D:\Aarshit_Diploma\xmapp\htdocs\sanjivani\wp-includes\plugin.php(470): WP_Hook->do_action(Array)
+#7 D:\Aarshit_Diploma\xmapp\htdocs\sanjivani\wp-admin\admin-footer.php(105): do_action('admin_footer-po...')
+#8 D:\Aarshit_Diploma\xmapp\htdocs\sanjivani\wp-admin\post-new.php(83): require_once('D:\\Aarshit_Dipl...')
+#9 {main}
+  thrown in D:\Aarshit_Diploma\xmapp\htdocs\sanjivani\wp-includes\class.wp-dependencies.php on line 166
+
+2021-07-21T17:16:59+00:00 CRITICAL Uncaught TypeError: explode(): Argument #2 ($string) must be of type string, array given in D:\Aarshit_Diploma\xmapp\htdocs\sanjivani\wp-includes\class.wp-dependencies.php:166
+Stack trace:
+#0 D:\Aarshit_Diploma\xmapp\htdocs\sanjivani\wp-includes\class.wp-dependencies.php(166): explode('?', Array)
+#1 D:\Aarshit_Diploma\xmapp\htdocs\sanjivani\wp-includes\class.wp-styles.php(371): WP_Dependencies->all_deps(Array, false, false)
+#2 D:\Aarshit_Diploma\xmapp\htdocs\sanjivani\wp-includes\class.wp-dependencies.php(106): WP_Styles->all_deps(Array)
+#3 D:\Aarshit_Diploma\xmapp\htdocs\sanjivani\wp-includes\script-loader.php(2739): WP_Dependencies->do_items(Array)
+#4 D:\Aarshit_Diploma\xmapp\htdocs\sanjivani\wp-includes\class-wp-hook.php(303): wp_add_iframed_editor_assets_html('')
+#5 D:\Aarshit_Diploma\xmapp\htdocs\sanjivani\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#6 D:\Aarshit_Diploma\xmapp\htdocs\sanjivani\wp-includes\plugin.php(470): WP_Hook->do_action(Array)
+#7 D:\Aarshit_Diploma\xmapp\htdocs\sanjivani\wp-admin\admin-footer.php(105): do_action('admin_footer-po...')
+#8 D:\Aarshit_Diploma\xmapp\htdocs\sanjivani\wp-admin\post.php(369): require_once('D:\\Aarshit_Dipl...')
+#9 {main}
+  thrown in D:\Aarshit_Diploma\xmapp\htdocs\sanjivani\wp-includes\class.wp-dependencies.php on line 166
+
+2021-07-21T17:29:06+00:00 CRITICAL Uncaught TypeError: explode(): Argument #2 ($string) must be of type string, array given in D:\Aarshit_Diploma\xmapp\htdocs\sanjivani\wp-includes\class.wp-dependencies.php:166
+Stack trace:
+#0 D:\Aarshit_Diploma\xmapp\htdocs\sanjivani\wp-includes\class.wp-dependencies.php(166): explode('?', Array)
+#1 D:\Aarshit_Diploma\xmapp\htdocs\sanjivani\wp-includes\class.wp-styles.php(371): WP_Dependencies->all_deps(Array, false, false)
+#2 D:\Aarshit_Diploma\xmapp\htdocs\sanjivani\wp-includes\class.wp-dependencies.php(106): WP_Styles->all_deps(Array)
+#3 D:\Aarshit_Diploma\xmapp\htdocs\sanjivani\wp-includes\script-loader.php(2739): WP_Dependencies->do_items(Array)
+#4 D:\Aarshit_Diploma\xmapp\htdocs\sanjivani\wp-includes\class-wp-hook.php(303): wp_add_iframed_editor_assets_html('')
+#5 D:\Aarshit_Diploma\xmapp\htdocs\sanjivani\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#6 D:\Aarshit_Diploma\xmapp\htdocs\sanjivani\wp-includes\plugin.php(470): WP_Hook->do_action(Array)
+#7 D:\Aarshit_Diploma\xmapp\htdocs\sanjivani\wp-admin\admin-footer.php(105): do_action('admin_footer-po...')
+#8 D:\Aarshit_Diploma\xmapp\htdocs\sanjivani\wp-admin\post.php(369): require_once('D:\\Aarshit_Dipl...')
+#9 {main}
+  thrown in D:\Aarshit_Diploma\xmapp\htdocs\sanjivani\wp-includes\class.wp-dependencies.php on line 166
+
+2021-07-21T17:34:01+00:00 CRITICAL Uncaught TypeError: explode(): Argument #2 ($string) must be of type string, array given in D:\Aarshit_Diploma\xmapp\htdocs\sanjivani\wp-includes\class.wp-dependencies.php:166
+Stack trace:
+#0 D:\Aarshit_Diploma\xmapp\htdocs\sanjivani\wp-includes\class.wp-dependencies.php(166): explode('?', Array)
+#1 D:\Aarshit_Diploma\xmapp\htdocs\sanjivani\wp-includes\class.wp-styles.php(371): WP_Dependencies->all_deps(Array, false, false)
+#2 D:\Aarshit_Diploma\xmapp\htdocs\sanjivani\wp-includes\class.wp-dependencies.php(106): WP_Styles->all_deps(Array)
+#3 D:\Aarshit_Diploma\xmapp\htdocs\sanjivani\wp-includes\script-loader.php(2739): WP_Dependencies->do_items(Array)
+#4 D:\Aarshit_Diploma\xmapp\htdocs\sanjivani\wp-includes\class-wp-hook.php(303): wp_add_iframed_editor_assets_html('')
+#5 D:\Aarshit_Diploma\xmapp\htdocs\sanjivani\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#6 D:\Aarshit_Diploma\xmapp\htdocs\sanjivani\wp-includes\plugin.php(470): WP_Hook->do_action(Array)
+#7 D:\Aarshit_Diploma\xmapp\htdocs\sanjivani\wp-admin\admin-footer.php(105): do_action('admin_footer-po...')
+#8 D:\Aarshit_Diploma\xmapp\htdocs\sanjivani\wp-admin\post.php(369): require_once('D:\\Aarshit_Dipl...')
+#9 {main}
+  thrown in D:\Aarshit_Diploma\xmapp\htdocs\sanjivani\wp-includes\class.wp-dependencies.php on line 166
+
+2021-07-21T17:40:21+00:00 CRITICAL Uncaught TypeError: explode(): Argument #2 ($string) must be of type string, array given in D:\Aarshit_Diploma\xmapp\htdocs\sanjivani\wp-includes\class.wp-dependencies.php:166
+Stack trace:
+#0 D:\Aarshit_Diploma\xmapp\htdocs\sanjivani\wp-includes\class.wp-dependencies.php(166): explode('?', Array)
+#1 D:\Aarshit_Diploma\xmapp\htdocs\sanjivani\wp-includes\class.wp-styles.php(371): WP_Dependencies->all_deps(Array, false, false)
+#2 D:\Aarshit_Diploma\xmapp\htdocs\sanjivani\wp-includes\class.wp-dependencies.php(106): WP_Styles->all_deps(Array)
+#3 D:\Aarshit_Diploma\xmapp\htdocs\sanjivani\wp-includes\script-loader.php(2739): WP_Dependencies->do_items(Array)
+#4 D:\Aarshit_Diploma\xmapp\htdocs\sanjivani\wp-includes\class-wp-hook.php(303): wp_add_iframed_editor_assets_html('')
+#5 D:\Aarshit_Diploma\xmapp\htdocs\sanjivani\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#6 D:\Aarshit_Diploma\xmapp\htdocs\sanjivani\wp-includes\plugin.php(470): WP_Hook->do_action(Array)
+#7 D:\Aarshit_Diploma\xmapp\htdocs\sanjivani\wp-admin\admin-footer.php(105): do_action('admin_footer-po...')
+#8 D:\Aarshit_Diploma\xmapp\htdocs\sanjivani\wp-admin\post.php(369): require_once('D:\\Aarshit_Dipl...')
+#9 {main}
+  thrown in D:\Aarshit_Diploma\xmapp\htdocs\sanjivani\wp-includes\class.wp-dependencies.php on line 166
+
+2021-07-21T17:52:36+00:00 CRITICAL Uncaught TypeError: explode(): Argument #2 ($string) must be of type string, array given in D:\Aarshit_Diploma\xmapp\htdocs\sanjivani\wp-includes\class.wp-dependencies.php:166
+Stack trace:
+#0 D:\Aarshit_Diploma\xmapp\htdocs\sanjivani\wp-includes\class.wp-dependencies.php(166): explode('?', Array)
+#1 D:\Aarshit_Diploma\xmapp\htdocs\sanjivani\wp-includes\class.wp-styles.php(371): WP_Dependencies->all_deps(Array, false, false)
+#2 D:\Aarshit_Diploma\xmapp\htdocs\sanjivani\wp-includes\class.wp-dependencies.php(106): WP_Styles->all_deps(Array)
+#3 D:\Aarshit_Diploma\xmapp\htdocs\sanjivani\wp-includes\script-loader.php(2739): WP_Dependencies->do_items(Array)
+#4 D:\Aarshit_Diploma\xmapp\htdocs\sanjivani\wp-includes\class-wp-hook.php(303): wp_add_iframed_editor_assets_html('')
+#5 D:\Aarshit_Diploma\xmapp\htdocs\sanjivani\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#6 D:\Aarshit_Diploma\xmapp\htdocs\sanjivani\wp-includes\plugin.php(470): WP_Hook->do_action(Array)
+#7 D:\Aarshit_Diploma\xmapp\htdocs\sanjivani\wp-admin\admin-footer.php(105): do_action('admin_footer-po...')
+#8 D:\Aarshit_Diploma\xmapp\htdocs\sanjivani\wp-admin\post.php(369): require_once('D:\\Aarshit_Dipl...')
+#9 {main}
+  thrown in D:\Aarshit_Diploma\xmapp\htdocs\sanjivani\wp-includes\class.wp-dependencies.php on line 166
+
+2021-07-21T17:53:56+00:00 CRITICAL Uncaught TypeError: explode(): Argument #2 ($string) must be of type string, array given in D:\Aarshit_Diploma\xmapp\htdocs\sanjivani\wp-includes\class.wp-dependencies.php:166
+Stack trace:
+#0 D:\Aarshit_Diploma\xmapp\htdocs\sanjivani\wp-includes\class.wp-dependencies.php(166): explode('?', Array)
+#1 D:\Aarshit_Diploma\xmapp\htdocs\sanjivani\wp-includes\class.wp-styles.php(371): WP_Dependencies->all_deps(Array, false, false)
+#2 D:\Aarshit_Diploma\xmapp\htdocs\sanjivani\wp-includes\class.wp-dependencies.php(106): WP_Styles->all_deps(Array)
+#3 D:\Aarshit_Diploma\xmapp\htdocs\sanjivani\wp-includes\script-loader.php(2739): WP_Dependencies->do_items(Array)
+#4 D:\Aarshit_Diploma\xmapp\htdocs\sanjivani\wp-includes\class-wp-hook.php(303): wp_add_iframed_editor_assets_html('')
+#5 D:\Aarshit_Diploma\xmapp\htdocs\sanjivani\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#6 D:\Aarshit_Diploma\xmapp\htdocs\sanjivani\wp-includes\plugin.php(470): WP_Hook->do_action(Array)
+#7 D:\Aarshit_Diploma\xmapp\htdocs\sanjivani\wp-admin\admin-footer.php(105): do_action('admin_footer-po...')
+#8 D:\Aarshit_Diploma\xmapp\htdocs\sanjivani\wp-admin\post-new.php(83): require_once('D:\\Aarshit_Dipl...')
+#9 {main}
+  thrown in D:\Aarshit_Diploma\xmapp\htdocs\sanjivani\wp-includes\class.wp-dependencies.php on line 166
+
+2021-07-21T18:03:02+00:00 CRITICAL Uncaught TypeError: explode(): Argument #2 ($string) must be of type string, array given in D:\Aarshit_Diploma\xmapp\htdocs\sanjivani\wp-includes\class.wp-dependencies.php:166
+Stack trace:
+#0 D:\Aarshit_Diploma\xmapp\htdocs\sanjivani\wp-includes\class.wp-dependencies.php(166): explode('?', Array)
+#1 D:\Aarshit_Diploma\xmapp\htdocs\sanjivani\wp-includes\class.wp-styles.php(371): WP_Dependencies->all_deps(Array, false, false)
+#2 D:\Aarshit_Diploma\xmapp\htdocs\sanjivani\wp-includes\class.wp-dependencies.php(106): WP_Styles->all_deps(Array)
+#3 D:\Aarshit_Diploma\xmapp\htdocs\sanjivani\wp-includes\script-loader.php(2739): WP_Dependencies->do_items(Array)
+#4 D:\Aarshit_Diploma\xmapp\htdocs\sanjivani\wp-includes\class-wp-hook.php(303): wp_add_iframed_editor_assets_html('')
+#5 D:\Aarshit_Diploma\xmapp\htdocs\sanjivani\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#6 D:\Aarshit_Diploma\xmapp\htdocs\sanjivani\wp-includes\plugin.php(470): WP_Hook->do_action(Array)
+#7 D:\Aarshit_Diploma\xmapp\htdocs\sanjivani\wp-admin\admin-footer.php(105): do_action('admin_footer-po...')
+#8 D:\Aarshit_Diploma\xmapp\htdocs\sanjivani\wp-admin\post.php(369): require_once('D:\\Aarshit_Dipl...')
+#9 {main}
+  thrown in D:\Aarshit_Diploma\xmapp\htdocs\sanjivani\wp-includes\class.wp-dependencies.php on line 166
+
+2021-07-21T18:04:22+00:00 CRITICAL Uncaught TypeError: explode(): Argument #2 ($string) must be of type string, array given in D:\Aarshit_Diploma\xmapp\htdocs\sanjivani\wp-includes\class.wp-dependencies.php:166
+Stack trace:
+#0 D:\Aarshit_Diploma\xmapp\htdocs\sanjivani\wp-includes\class.wp-dependencies.php(166): explode('?', Array)
+#1 D:\Aarshit_Diploma\xmapp\htdocs\sanjivani\wp-includes\class.wp-styles.php(371): WP_Dependencies->all_deps(Array, false, false)
+#2 D:\Aarshit_Diploma\xmapp\htdocs\sanjivani\wp-includes\class.wp-dependencies.php(106): WP_Styles->all_deps(Array)
+#3 D:\Aarshit_Diploma\xmapp\htdocs\sanjivani\wp-includes\script-loader.php(2739): WP_Dependencies->do_items(Array)
+#4 D:\Aarshit_Diploma\xmapp\htdocs\sanjivani\wp-includes\class-wp-hook.php(303): wp_add_iframed_editor_assets_html('')
+#5 D:\Aarshit_Diploma\xmapp\htdocs\sanjivani\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#6 D:\Aarshit_Diploma\xmapp\htdocs\sanjivani\wp-includes\plugin.php(470): WP_Hook->do_action(Array)
+#7 D:\Aarshit_Diploma\xmapp\htdocs\sanjivani\wp-admin\admin-footer.php(105): do_action('admin_footer-po...')
+#8 D:\Aarshit_Diploma\xmapp\htdocs\sanjivani\wp-admin\post-new.php(83): require_once('D:\\Aarshit_Dipl...')
+#9 {main}
+  thrown in D:\Aarshit_Diploma\xmapp\htdocs\sanjivani\wp-includes\class.wp-dependencies.php on line 166
+
+2021-07-21T18:08:18+00:00 CRITICAL Uncaught TypeError: explode(): Argument #2 ($string) must be of type string, array given in D:\Aarshit_Diploma\xmapp\htdocs\sanjivani\wp-includes\class.wp-dependencies.php:166
+Stack trace:
+#0 D:\Aarshit_Diploma\xmapp\htdocs\sanjivani\wp-includes\class.wp-dependencies.php(166): explode('?', Array)
+#1 D:\Aarshit_Diploma\xmapp\htdocs\sanjivani\wp-includes\class.wp-styles.php(371): WP_Dependencies->all_deps(Array, false, false)
+#2 D:\Aarshit_Diploma\xmapp\htdocs\sanjivani\wp-includes\class.wp-dependencies.php(106): WP_Styles->all_deps(Array)
+#3 D:\Aarshit_Diploma\xmapp\htdocs\sanjivani\wp-includes\script-loader.php(2739): WP_Dependencies->do_items(Array)
+#4 D:\Aarshit_Diploma\xmapp\htdocs\sanjivani\wp-includes\class-wp-hook.php(303): wp_add_iframed_editor_assets_html('')
+#5 D:\Aarshit_Diploma\xmapp\htdocs\sanjivani\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#6 D:\Aarshit_Diploma\xmapp\htdocs\sanjivani\wp-includes\plugin.php(470): WP_Hook->do_action(Array)
+#7 D:\Aarshit_Diploma\xmapp\htdocs\sanjivani\wp-admin\admin-footer.php(105): do_action('admin_footer-po...')
+#8 D:\Aarshit_Diploma\xmapp\htdocs\sanjivani\wp-admin\post.php(369): require_once('D:\\Aarshit_Dipl...')
+#9 {main}
+  thrown in D:\Aarshit_Diploma\xmapp\htdocs\sanjivani\wp-includes\class.wp-dependencies.php on line 166
+
+2021-07-21T18:16:31+00:00 CRITICAL Uncaught TypeError: explode(): Argument #2 ($string) must be of type string, array given in D:\Aarshit_Diploma\xmapp\htdocs\sanjivani\wp-includes\class.wp-dependencies.php:166
+Stack trace:
+#0 D:\Aarshit_Diploma\xmapp\htdocs\sanjivani\wp-includes\class.wp-dependencies.php(166): explode('?', Array)
+#1 D:\Aarshit_Diploma\xmapp\htdocs\sanjivani\wp-includes\class.wp-styles.php(371): WP_Dependencies->all_deps(Array, false, false)
+#2 D:\Aarshit_Diploma\xmapp\htdocs\sanjivani\wp-includes\class.wp-dependencies.php(106): WP_Styles->all_deps(Array)
+#3 D:\Aarshit_Diploma\xmapp\htdocs\sanjivani\wp-includes\script-loader.php(2739): WP_Dependencies->do_items(Array)
+#4 D:\Aarshit_Diploma\xmapp\htdocs\sanjivani\wp-includes\class-wp-hook.php(303): wp_add_iframed_editor_assets_html('')
+#5 D:\Aarshit_Diploma\xmapp\htdocs\sanjivani\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#6 D:\Aarshit_Diploma\xmapp\htdocs\sanjivani\wp-includes\plugin.php(470): WP_Hook->do_action(Array)
+#7 D:\Aarshit_Diploma\xmapp\htdocs\sanjivani\wp-admin\admin-footer.php(105): do_action('admin_footer-po...')
+#8 D:\Aarshit_Diploma\xmapp\htdocs\sanjivani\wp-admin\post.php(369): require_once('D:\\Aarshit_Dipl...')
+#9 {main}
+  thrown in D:\Aarshit_Diploma\xmapp\htdocs\sanjivani\wp-includes\class.wp-dependencies.php on line 166
+
+2021-07-21T18:18:52+00:00 CRITICAL Uncaught TypeError: explode(): Argument #2 ($string) must be of type string, array given in D:\Aarshit_Diploma\xmapp\htdocs\sanjivani\wp-includes\class.wp-dependencies.php:166
+Stack trace:
+#0 D:\Aarshit_Diploma\xmapp\htdocs\sanjivani\wp-includes\class.wp-dependencies.php(166): explode('?', Array)
+#1 D:\Aarshit_Diploma\xmapp\htdocs\sanjivani\wp-includes\class.wp-styles.php(371): WP_Dependencies->all_deps(Array, false, false)
+#2 D:\Aarshit_Diploma\xmapp\htdocs\sanjivani\wp-includes\class.wp-dependencies.php(106): WP_Styles->all_deps(Array)
+#3 D:\Aarshit_Diploma\xmapp\htdocs\sanjivani\wp-includes\script-loader.php(2739): WP_Dependencies->do_items(Array)
+#4 D:\Aarshit_Diploma\xmapp\htdocs\sanjivani\wp-includes\class-wp-hook.php(303): wp_add_iframed_editor_assets_html('')
+#5 D:\Aarshit_Diploma\xmapp\htdocs\sanjivani\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#6 D:\Aarshit_Diploma\xmapp\htdocs\sanjivani\wp-includes\plugin.php(470): WP_Hook->do_action(Array)
+#7 D:\Aarshit_Diploma\xmapp\htdocs\sanjivani\wp-admin\admin-footer.php(105): do_action('admin_footer-po...')
+#8 D:\Aarshit_Diploma\xmapp\htdocs\sanjivani\wp-admin\post.php(369): require_once('D:\\Aarshit_Dipl...')
+#9 {main}
+  thrown in D:\Aarshit_Diploma\xmapp\htdocs\sanjivani\wp-includes\class.wp-dependencies.php on line 166
+

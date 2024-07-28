@@ -1,0 +1,117 @@
+2021-07-23T14:43:27+00:00 CRITICAL Maximum execution time of 300 seconds exceeded in D:\Aarshit_Diploma\xmapp\htdocs\sanjivani\wp-includes\Requests\Transport\cURL.php on line 165
+
+2021-07-23T16:02:28+00:00 CRITICAL Uncaught TypeError: explode(): Argument #2 ($string) must be of type string, array given in D:\Aarshit_Diploma\xmapp\htdocs\sanjivani\wp-includes\class.wp-dependencies.php:166
+Stack trace:
+#0 D:\Aarshit_Diploma\xmapp\htdocs\sanjivani\wp-includes\class.wp-dependencies.php(166): explode('?', Array)
+#1 D:\Aarshit_Diploma\xmapp\htdocs\sanjivani\wp-includes\class.wp-styles.php(371): WP_Dependencies->all_deps(Array, false, false)
+#2 D:\Aarshit_Diploma\xmapp\htdocs\sanjivani\wp-includes\class.wp-dependencies.php(106): WP_Styles->all_deps(Array)
+#3 D:\Aarshit_Diploma\xmapp\htdocs\sanjivani\wp-includes\script-loader.php(2739): WP_Dependencies->do_items(Array)
+#4 D:\Aarshit_Diploma\xmapp\htdocs\sanjivani\wp-includes\class-wp-hook.php(303): wp_add_iframed_editor_assets_html('')
+#5 D:\Aarshit_Diploma\xmapp\htdocs\sanjivani\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#6 D:\Aarshit_Diploma\xmapp\htdocs\sanjivani\wp-includes\plugin.php(470): WP_Hook->do_action(Array)
+#7 D:\Aarshit_Diploma\xmapp\htdocs\sanjivani\wp-admin\admin-footer.php(105): do_action('admin_footer-po...')
+#8 D:\Aarshit_Diploma\xmapp\htdocs\sanjivani\wp-admin\post.php(369): require_once('D:\\Aarshit_Dipl...')
+#9 {main}
+  thrown in D:\Aarshit_Diploma\xmapp\htdocs\sanjivani\wp-includes\class.wp-dependencies.php on line 166
+
+2021-07-23T18:41:23+00:00 CRITICAL Uncaught Error: Call to a member function has_weight() on null in D:\Aarshit_Diploma\xmapp\htdocs\sanjivani\wp-content\plugins\woocommerce\includes\wc-template-functions.php:3386
+Stack trace:
+#0 D:\Aarshit_Diploma\xmapp\htdocs\sanjivani\wp-includes\class-wp-hook.php(303): wc_display_product_attributes(NULL)
+#1 D:\Aarshit_Diploma\xmapp\htdocs\sanjivani\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#2 D:\Aarshit_Diploma\xmapp\htdocs\sanjivani\wp-includes\plugin.php(470): WP_Hook->do_action(Array)
+#3 D:\Aarshit_Diploma\xmapp\htdocs\sanjivani\wp-content\plugins\woocommerce\templates\single-product\tabs\additional-information.php(30): do_action('woocommerce_pro...', NULL)
+#4 D:\Aarshit_Diploma\xmapp\htdocs\sanjivani\wp-content\plugins\woocommerce\includes\wc-core-functions.php(345): include('D:\\Aarshit_Dipl...')
+#5 D:\Aarshit_Diploma\xmapp\htdocs\sanjivani\wp-content\plugins\woocommerce\includes\wc-template-functions.php(1770): wc_get_template('single-product/...')
+#6 D:\Aarshit_Diploma\xmapp\htdocs\sanjivani\wp-content\plugins\woocommerce\templates\single-product\tabs\tabs.php(47): woocommerce_product_additional_information_tab('additional_info...', Array)
+#7 D:\Aarshit_Diploma\xmapp\htdocs\sanjivani\wp-content\plugins\woocommerce\includes\wc-core-functions.php(345): include('D:\\Aarshit_Dipl...')
+#8 D:\Aarshit_Diploma\xmapp\htdocs\sanjivani\wp-content\plugins\woolentor-addons\classes\class.default_data.php(236): wc_get_template('single-product/...')
+#9 D:\Aarshit_Diploma\xmapp\htdocs\sanjivani\wp-content\plugins\woolentor-addons\includes\addons\wb_product_data_tab.php(275): WooLentor_Default_Data->default('wl-product-data...')
+#10 D:\Aarshit_Diploma\xmapp\htdocs\sanjivani\wp-content\plugins\elementor\includes\base\controls-stack.php(1892): Elementor\WL_Product_Product_Data_Tabs_Element->render()
+#11 D:\Aarshit_Diploma\xmapp\htdocs\sanjivani\wp-content\plugins\elementor\includes\base\widget-base.php(567): Elementor\Controls_Stack->render_by_mode()
+#12 D:\Aarshit_Diploma\xmapp\htdocs\sanjivani\wp-content\plugins\elementor\core\base\document.php(271): Elementor\Widget_Base->render_content()
+#13 D:\Aarshit_Diploma\xmapp\htdocs\sanjivani\wp-content\plugins\elementor\includes\managers\widgets.php(323): Elementor\Core\Base\Document->render_element(Array)
+#14 [internal function]: Elementor\Widgets_Manager->ajax_render_widget(Array, Object(Elementor\Core\Common\Modules\Ajax\Module))
+#15 D:\Aarshit_Diploma\xmapp\htdocs\sanjivani\wp-content\plugins\elementor\core\common\modules\ajax\module.php(171): call_user_func(Array, Array, Object(Elementor\Core\Common\Modules\Ajax\Module))
+#16 D:\Aarshit_Diploma\xmapp\htdocs\sanjivani\wp-includes\class-wp-hook.php(303): Elementor\Core\Common\Modules\Ajax\Module->handle_ajax_request('')
+#17 D:\Aarshit_Diploma\xmapp\htdocs\sanjivani\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#18 D:\Aarshit_Diploma\xmapp\htdocs\sanjivani\wp-includes\plugin.php(470): WP_Hook->do_action(Array)
+#19 D:\Aarshit_Diploma\xmapp\htdocs\sanjivani\wp-admin\admin-ajax.php(187): do_action('wp_ajax_element...')
+#20 {main}
+  thrown in D:\Aarshit_Diploma\xmapp\htdocs\sanjivani\wp-content\plugins\woocommerce\includes\wc-template-functions.php on line 3386
+
+2021-07-23T18:42:03+00:00 CRITICAL Uncaught TypeError: explode(): Argument #2 ($string) must be of type string, array given in D:\Aarshit_Diploma\xmapp\htdocs\sanjivani\wp-includes\class.wp-dependencies.php:166
+Stack trace:
+#0 D:\Aarshit_Diploma\xmapp\htdocs\sanjivani\wp-includes\class.wp-dependencies.php(166): explode('?', Array)
+#1 D:\Aarshit_Diploma\xmapp\htdocs\sanjivani\wp-includes\class.wp-styles.php(371): WP_Dependencies->all_deps(Array, false, false)
+#2 D:\Aarshit_Diploma\xmapp\htdocs\sanjivani\wp-includes\class.wp-dependencies.php(106): WP_Styles->all_deps(Array)
+#3 D:\Aarshit_Diploma\xmapp\htdocs\sanjivani\wp-includes\script-loader.php(2739): WP_Dependencies->do_items(Array)
+#4 D:\Aarshit_Diploma\xmapp\htdocs\sanjivani\wp-includes\class-wp-hook.php(303): wp_add_iframed_editor_assets_html('')
+#5 D:\Aarshit_Diploma\xmapp\htdocs\sanjivani\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#6 D:\Aarshit_Diploma\xmapp\htdocs\sanjivani\wp-includes\plugin.php(470): WP_Hook->do_action(Array)
+#7 D:\Aarshit_Diploma\xmapp\htdocs\sanjivani\wp-admin\admin-footer.php(105): do_action('admin_footer-po...')
+#8 D:\Aarshit_Diploma\xmapp\htdocs\sanjivani\wp-admin\post.php(369): require_once('D:\\Aarshit_Dipl...')
+#9 {main}
+  thrown in D:\Aarshit_Diploma\xmapp\htdocs\sanjivani\wp-includes\class.wp-dependencies.php on line 166
+
+2021-07-23T18:43:13+00:00 CRITICAL Uncaught TypeError: explode(): Argument #2 ($string) must be of type string, array given in D:\Aarshit_Diploma\xmapp\htdocs\sanjivani\wp-includes\class.wp-dependencies.php:166
+Stack trace:
+#0 D:\Aarshit_Diploma\xmapp\htdocs\sanjivani\wp-includes\class.wp-dependencies.php(166): explode('?', Array)
+#1 D:\Aarshit_Diploma\xmapp\htdocs\sanjivani\wp-includes\class.wp-styles.php(371): WP_Dependencies->all_deps(Array, false, false)
+#2 D:\Aarshit_Diploma\xmapp\htdocs\sanjivani\wp-includes\class.wp-dependencies.php(106): WP_Styles->all_deps(Array)
+#3 D:\Aarshit_Diploma\xmapp\htdocs\sanjivani\wp-includes\script-loader.php(2739): WP_Dependencies->do_items(Array)
+#4 D:\Aarshit_Diploma\xmapp\htdocs\sanjivani\wp-includes\class-wp-hook.php(303): wp_add_iframed_editor_assets_html('')
+#5 D:\Aarshit_Diploma\xmapp\htdocs\sanjivani\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#6 D:\Aarshit_Diploma\xmapp\htdocs\sanjivani\wp-includes\plugin.php(470): WP_Hook->do_action(Array)
+#7 D:\Aarshit_Diploma\xmapp\htdocs\sanjivani\wp-admin\admin-footer.php(105): do_action('admin_footer-po...')
+#8 D:\Aarshit_Diploma\xmapp\htdocs\sanjivani\wp-admin\post.php(369): require_once('D:\\Aarshit_Dipl...')
+#9 {main}
+  thrown in D:\Aarshit_Diploma\xmapp\htdocs\sanjivani\wp-includes\class.wp-dependencies.php on line 166
+
+2021-07-23T19:26:01+00:00 CRITICAL Uncaught TypeError: method_exists(): Argument #1 ($object_or_class) must be of type object|string, array given in D:\Aarshit_Diploma\xmapp\htdocs\sanjivani\wp-content\plugins\wp-mail-smtp\src\Providers\Gmail\Mailer.php:160
+Stack trace:
+#0 D:\Aarshit_Diploma\xmapp\htdocs\sanjivani\wp-content\plugins\wp-mail-smtp\src\Providers\Gmail\Mailer.php(160): method_exists(Array, 'getId')
+#1 D:\Aarshit_Diploma\xmapp\htdocs\sanjivani\wp-content\plugins\wp-mail-smtp\src\MailCatcherV6.php(160): WPMailSMTP\Providers\Gmail\Mailer->is_email_sent()
+#2 D:\Aarshit_Diploma\xmapp\htdocs\sanjivani\wp-includes\pluggable.php(542): WPMailSMTP\MailCatcherV6->send()
+#3 D:\Aarshit_Diploma\xmapp\htdocs\sanjivani\wp-content\plugins\woocommerce\includes\emails\class-wc-email.php(655): wp_mail(Array, '[Sanjivani Medi...', '=-=-=-=-=-=-=-=...', Array, Array)
+#4 D:\Aarshit_Diploma\xmapp\htdocs\sanjivani\wp-content\plugins\woocommerce\includes\emails\class-wc-email-new-order.php(110): WC_Email->send('sanjivanimedica...', '[Sanjivani Medi...', '=-=-=-=-=-=-=-=...', 'Content-Type: t...', Array)
+#5 D:\Aarshit_Diploma\xmapp\htdocs\sanjivani\wp-includes\class-wp-hook.php(303): WC_Email_New_Order->trigger(747, Object(Automattic\WooCommerce\Admin\Overrides\Order))
+#6 D:\Aarshit_Diploma\xmapp\htdocs\sanjivani\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#7 D:\Aarshit_Diploma\xmapp\htdocs\sanjivani\wp-includes\plugin.php(518): WP_Hook->do_action(Array)
+#8 D:\Aarshit_Diploma\xmapp\htdocs\sanjivani\wp-content\plugins\woocommerce\includes\class-wc-emails.php(170): do_action_ref_array('woocommerce_ord...', Array)
+#9 D:\Aarshit_Diploma\xmapp\htdocs\sanjivani\wp-includes\class-wp-hook.php(303): WC_Emails::send_transactional_email(Array, Object(Automattic\WooCommerce\Admin\Overrides\Order))
+#10 D:\Aarshit_Diploma\xmapp\htdocs\sanjivani\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#11 D:\Aarshit_Diploma\xmapp\htdocs\sanjivani\wp-includes\plugin.php(470): WP_Hook->do_action(Array)
+#12 D:\Aarshit_Diploma\xmapp\htdocs\sanjivani\wp-content\plugins\woocommerce\includes\class-wc-order.php(372): do_action('woocommerce_ord...', 747, Object(Automattic\WooCommerce\Admin\Overrides\Order))
+#13 D:\Aarshit_Diploma\xmapp\htdocs\sanjivani\wp-content\plugins\woocommerce\includes\class-wc-order.php(221): WC_Order->status_transition()
+#14 D:\Aarshit_Diploma\xmapp\htdocs\sanjivani\wp-content\plugins\woocommerce\includes\class-wc-order.php(119): WC_Order->save()
+#15 D:\Aarshit_Diploma\xmapp\htdocs\sanjivani\wp-content\plugins\woo-razorpay\woo-razorpay.php(1071): WC_Order->payment_complete('pay_HcUEsDmGEHN...')
+#16 D:\Aarshit_Diploma\xmapp\htdocs\sanjivani\wp-content\plugins\woo-razorpay\woo-razorpay.php(995): WC_Razorpay->updateOrder(Object(Automattic\WooCommerce\Admin\Overrides\Order), true, '', 'pay_HcUEsDmGEHN...', NULL)
+#17 D:\Aarshit_Diploma\xmapp\htdocs\sanjivani\wp-includes\class-wp-hook.php(303): WC_Razorpay->check_razorpay_response('')
+#18 D:\Aarshit_Diploma\xmapp\htdocs\sanjivani\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#19 D:\Aarshit_Diploma\xmapp\htdocs\sanjivani\wp-includes\plugin.php(470): WP_Hook->do_action(Array)
+#20 D:\Aarshit_Diploma\xmapp\htdocs\sanjivani\wp-content\plugins\woocommerce\includes\class-wc-api.php(161): do_action('woocommerce_api...')
+#21 D:\Aarshit_Diploma\xmapp\htdocs\sanjivani\wp-includes\class-wp-hook.php(303): WC_API->handle_api_requests(Object(WP))
+#22 D:\Aarshit_Diploma\xmapp\htdocs\sanjivani\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters(NULL, Array)
+#23 D:\Aarshit_Diploma\xmapp\htdocs\sanjivani\wp-includes\plugin.php(518): WP_Hook->do_action(Array)
+#24 D:\Aarshit_Diploma\xmapp\htdocs\sanjivani\wp-includes\class-wp.php(388): do_action_ref_array('parse_request', Array)
+#25 D:\Aarshit_Diploma\xmapp\htdocs\sanjivani\wp-includes\class-wp.php(750): WP->parse_request('')
+#26 D:\Aarshit_Diploma\xmapp\htdocs\sanjivani\wp-includes\functions.php(1291): WP->main('')
+#27 D:\Aarshit_Diploma\xmapp\htdocs\sanjivani\wp-blog-header.php(16): wp()
+#28 D:\Aarshit_Diploma\xmapp\htdocs\sanjivani\index.php(17): require('D:\\Aarshit_Dipl...')
+#29 {main}
+  thrown in D:\Aarshit_Diploma\xmapp\htdocs\sanjivani\wp-content\plugins\wp-mail-smtp\src\Providers\Gmail\Mailer.php on line 160
+
+2021-07-23T20:19:13+00:00 CRITICAL Uncaught TypeError: explode(): Argument #2 ($string) must be of type string, array given in D:\Aarshit_Diploma\xmapp\htdocs\sanjivani\wp-includes\class.wp-dependencies.php:166
+Stack trace:
+#0 D:\Aarshit_Diploma\xmapp\htdocs\sanjivani\wp-includes\class.wp-dependencies.php(166): explode('?', Array)
+#1 D:\Aarshit_Diploma\xmapp\htdocs\sanjivani\wp-includes\class.wp-styles.php(371): WP_Dependencies->all_deps(Array, false, false)
+#2 D:\Aarshit_Diploma\xmapp\htdocs\sanjivani\wp-includes\class.wp-dependencies.php(106): WP_Styles->all_deps(Array)
+#3 D:\Aarshit_Diploma\xmapp\htdocs\sanjivani\wp-includes\script-loader.php(2739): WP_Dependencies->do_items(Array)
+#4 D:\Aarshit_Diploma\xmapp\htdocs\sanjivani\wp-includes\class-wp-hook.php(303): wp_add_iframed_editor_assets_html('')
+#5 D:\Aarshit_Diploma\xmapp\htdocs\sanjivani\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#6 D:\Aarshit_Diploma\xmapp\htdocs\sanjivani\wp-includes\plugin.php(470): WP_Hook->do_action(Array)
+#7 D:\Aarshit_Diploma\xmapp\htdocs\sanjivani\wp-admin\admin-footer.php(105): do_action('admin_footer-po...')
+#8 D:\Aarshit_Diploma\xmapp\htdocs\sanjivani\wp-admin\post.php(369): require_once('D:\\Aarshit_Dipl...')
+#9 {main}
+  thrown in D:\Aarshit_Diploma\xmapp\htdocs\sanjivani\wp-includes\class.wp-dependencies.php on line 166
+

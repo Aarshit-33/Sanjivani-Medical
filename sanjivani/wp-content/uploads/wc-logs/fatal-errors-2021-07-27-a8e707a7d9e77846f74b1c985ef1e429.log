@@ -1,0 +1,10 @@
+2021-07-27T06:45:42+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in D:\Aarshit_Diploma\xmapp\htdocs\sanjivani\wp-includes\wp-db.php on line 2056
+
+2021-07-27T07:57:48+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in D:\Aarshit_Diploma\xmapp\htdocs\sanjivani\wp-admin\includes\media.php on line 3841
+
+2021-07-27T17:17:22+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in D:\Aarshit_Diploma\xmapp\htdocs\sanjivani\wp-includes\Requests\Transport\cURL.php on line 484
+
+2021-07-27T17:22:59+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in D:\Aarshit_Diploma\xmapp\htdocs\sanjivani\wp-includes\Requests\Transport\cURL.php on line 165
+
+2021-07-27T17:24:38+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in D:\Aarshit_Diploma\xmapp\htdocs\sanjivani\wp-includes\Requests\Transport\cURL.php on line 484
+

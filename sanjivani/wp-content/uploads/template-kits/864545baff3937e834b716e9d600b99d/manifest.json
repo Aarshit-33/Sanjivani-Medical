@@ -1,0 +1,204 @@
+{
+    "manifest_version": "1.0.9",
+    "title": "American Diner Restaurant",
+    "page_builder": "elementor",
+    "kit_version": "2.0.1",
+    "templates": [
+        {
+            "name": "Home 1",
+            "screenshot": "screenshots\/home-1.jpg",
+            "source": "templates\/home-1-f94528fc61a5fda87489f260f7a65fe8.json",
+            "preview_url": false,
+            "type": "section",
+            "metadata": {
+                "template_type": "section",
+                "elementor_pro_required": false
+            },
+            "elementor_pro_required": false
+        },
+        {
+            "name": "Home 2",
+            "screenshot": "screenshots\/home-2-pro.jpg",
+            "source": "templates\/home-2-d673a54e32d0e1c22b3d54745fdf0d36.json",
+            "preview_url": false,
+            "type": "section",
+            "metadata": {
+                "template_type": "section",
+                "elementor_pro_required": true
+            },
+            "elementor_pro_required": true
+        },
+        {
+            "name": "Home 3",
+            "screenshot": "screenshots\/home-3-pro.jpg",
+            "source": "templates\/home-3-918bba5cd1d045782da1709ac80f52f0.json",
+            "preview_url": false,
+            "type": "section",
+            "metadata": {
+                "template_type": "section",
+                "elementor_pro_required": true
+            },
+            "elementor_pro_required": true
+        },
+        {
+            "name": "Home 4",
+            "screenshot": "screenshots\/home-4-pro.jpg",
+            "source": "templates\/home-4-4aa590e8ebbefed064993da3129b7f5c.json",
+            "preview_url": false,
+            "type": "section",
+            "metadata": {
+                "template_type": "section",
+                "elementor_pro_required": true
+            },
+            "elementor_pro_required": true
+        },
+        {
+            "name": "Menu 1",
+            "screenshot": "screenshots\/menu-1.jpg",
+            "source": "templates\/menu-1-7a5f7c0a66890defe03b8f0cef0f8ca6.json",
+            "preview_url": false,
+            "type": "section",
+            "metadata": {
+                "template_type": "section",
+                "elementor_pro_required": false
+            },
+            "elementor_pro_required": false
+        },
+        {
+            "name": "Menu 2",
+            "screenshot": "screenshots\/menu-2-pro.jpg",
+            "source": "templates\/menu-2-b81a6c300cbde2a9ccc3990f5846dccc.json",
+            "preview_url": false,
+            "type": "section",
+            "metadata": {
+                "template_type": "section",
+                "elementor_pro_required": true
+            },
+            "elementor_pro_required": true
+        },
+        {
+            "name": "Menu 3",
+            "screenshot": "screenshots\/menu-3-pro.jpg",
+            "source": "templates\/menu-3-4f45cea1c29aa873acda71548ce5dc7a.json",
+            "preview_url": false,
+            "type": "section",
+            "metadata": {
+                "template_type": "section",
+                "elementor_pro_required": true
+            },
+            "elementor_pro_required": true
+        },
+        {
+            "name": "Services 1",
+            "screenshot": "screenshots\/services-1.jpg",
+            "source": "templates\/services-1-f22a65824cbac473727407c1af5293ed.json",
+            "preview_url": false,
+            "type": "section",
+            "metadata": {
+                "template_type": "section",
+                "elementor_pro_required": false
+            },
+            "elementor_pro_required": false
+        },
+        {
+            "name": "About Us",
+            "screenshot": "screenshots\/about-us.jpg",
+            "source": "templates\/about-us-c540142a9c681e932b406f0a8a935a83.json",
+            "preview_url": false,
+            "type": "section",
+            "metadata": {
+                "template_type": "section",
+                "elementor_pro_required": false
+            },
+            "elementor_pro_required": false
+        },
+        {
+            "name": "Services 2",
+            "screenshot": "screenshots\/services-2-pro.jpg",
+            "source": "templates\/services-2-909d8bbab873fd99695caba71c216c37.json",
+            "preview_url": false,
+            "type": "section",
+            "metadata": {
+                "template_type": "section",
+                "elementor_pro_required": true
+            },
+            "elementor_pro_required": true
+        },
+        {
+            "name": "Our History",
+            "screenshot": "screenshots\/our-history.jpg",
+            "source": "templates\/our-history-5aa2ef8c08907100f9594874e54bd80b.json",
+            "preview_url": false,
+            "type": "section",
+            "metadata": {
+                "template_type": "section",
+                "elementor_pro_required": false
+            },
+            "elementor_pro_required": false
+        },
+        {
+            "name": "Events",
+            "screenshot": "screenshots\/events.jpg",
+            "source": "templates\/events-c4f8177040246839499d304a821aa625.json",
+            "preview_url": false,
+            "type": "section",
+            "metadata": {
+                "template_type": "section",
+                "elementor_pro_required": false
+            },
+            "elementor_pro_required": false
+        },
+        {
+            "name": "Contact 1",
+            "screenshot": "screenshots\/contact-1-pro.jpg",
+            "source": "templates\/contact-1-49e28422da2c1ec9073cd152c76f1d74.json",
+            "preview_url": false,
+            "type": "section",
+            "metadata": {
+                "template_type": "section",
+                "elementor_pro_required": true
+            },
+            "elementor_pro_required": true
+        },
+        {
+            "name": "Contact 2",
+            "screenshot": "screenshots\/contact-2.jpg",
+            "source": "templates\/contact-2-4e81620e3b087aa72bbefd1dd34fe4ba.json",
+            "preview_url": false,
+            "type": "section",
+            "metadata": {
+                "template_type": "section",
+                "elementor_pro_required": true
+            },
+            "elementor_pro_required": true
+        },
+        {
+            "name": "Popup",
+            "screenshot": "screenshots\/popup.jpg",
+            "source": "templates\/popup-8e0641a595d7c79d71d1ea81f20718f2.json",
+            "preview_url": false,
+            "type": "section",
+            "metadata": {
+                "template_type": "section",
+                "elementor_pro_required": true
+            },
+            "elementor_pro_required": true
+        }
+    ],
+    "required_plugins": [
+        {
+            "name": "Elementor",
+            "version": "2.9.6",
+            "file": "elementor\/elementor.php",
+            "author": "Elementor.com"
+        },
+        {
+            "name": "Elementor Pro",
+            "version": "2.9.6",
+            "file": "elementor-pro\/elementor-pro.php",
+            "author": "Elementor.com"
+        }
+    ],
+    "required_css": [],
+    "images": []
+}
